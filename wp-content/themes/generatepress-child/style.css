@@ -1,0 +1,73 @@
+/*
+Theme Name: GeneratePress Child 
+Theme URI: https://generatepress.com/
+Description: Minimal child theme for assignment rubric (menu + hero + sections + blog loop).
+Author: Carson Musgrave
+Template: generatepress
+Version: 1.0.0
+*/
+
+/* Basic hero */
+
+/* Layout helpers */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HERO */
+.hero {
+  padding: 90px 0;
+  background: #f3f4f6;
+  text-align: center;
+}
+
+.kicker {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin: 0 0 10px;
+  opacity: 0.75;
+}
+
+.title {
+  margin: 0 0 12px;
+  line-height: 1.1;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.subtitle {
+  margin: 0 auto 26px;
+  max-width: 60ch;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 16px;
+  border: 1px solid #111;
+  background: #111;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #111 !important;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 0;
+  border-top: 1px solid #e5e7eb;
+}
